@@ -14,7 +14,7 @@ app.set("view engine", "ejs");
 
 
 let html = ''
-sfasadfasd
+
 
 
 app.get("/", (req, res) => res.render("pages/index", {data: html}));
