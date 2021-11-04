@@ -11,11 +11,7 @@ let app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
-
-
 let html = ''
-sfasadfasd
-
 
 app.get("/", (req, res) => res.render("pages/index", {data: html}));
 
