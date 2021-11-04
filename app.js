@@ -14,8 +14,6 @@ app.set("view engine", "ejs");
 let html = ''
 
 
-let html = ''
-
 app.get("/", (req, res) => res.render("pages/index", {data: html}));
 
 app.get("/myForm", (req, res) => res.render("pages/myForm"));
