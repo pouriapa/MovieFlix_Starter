@@ -13,9 +13,6 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 let html = ''
 
-app.use((req, res, next) => {
-  res.send('Web API is not available at the moment')
-})
 
 let html = ''
 
