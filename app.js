@@ -14,15 +14,10 @@ app.set("view engine", "ejs");
 let html = ''
 
 app.use((req, res, next) => {
-
-<<<<<<< HEAD
   res.send('Web API is not available at the moment')
-=======
-let html = ''
-
->>>>>>> b9ffc51f2c72a9bc69fedcf242a1b2cce4027b97
-
 })
+
+let html = ''
 
 app.get("/", (req, res) => res.render("pages/index", {data: html}));
 
